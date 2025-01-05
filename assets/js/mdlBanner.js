@@ -1,9 +1,7 @@
 $(document).ready(function(){
   
-	$(".mdlBannerUpper").text(mdlBannerUpper_text);
-    $(".mdlBannerBottom").text(mdlBannerBottom_text);
-    $(".bottomMdlBannerLink").text(bottomMdlBannerLink_text).attr("href", bottomMdlBannerLink_Url);   
-	$(".mdlBanner").css("background", !isMobile() ? BannerPic : BannerPicMobile);
+ 
+$(".mdlBanner").css("background", !isMobile() ? BannerPic : BannerPicMobile);
 	
 // Update the count down every 1 second
 	var x = setInterval(function() {
