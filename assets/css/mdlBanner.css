@@ -1,0 +1,236 @@
+body {
+  background-color: #f0f2f4;
+}
+.mdlBanner {
+  width: 1200px;
+  margin: auto;
+  object-fit: contain;
+  height: 208px;
+  text-align: center;
+  font-family: 'blenderRegular';
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  color: #fff;
+  position: relative;
+  background-size: 100% !important;
+  background-color: #fff;
+  background-repeat: no-repeat !important;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  /* display: flex; */
+  align-items: center;
+}
+
+.bottomMdlBanner {
+  width: 100%;
+  height: 48px;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bottomMdlBannerLink, .bottomMdlBannerLink:hover, .bottomMdlBannerLink:visited {
+  font-family: 'blenderBold';
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+
+.bottomMdlBanner a {
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  line-height: 2.5;
+}
+
+.mdlBannerUpper {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.mdlBannerBottom {
+  font-size: 24px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.leftMdlBannerIn {
+  /*top: 28%;*/
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-left: 50px;
+  color: white;
+  font-size: 48px;
+  transform: none;
+  position: relative;
+}
+
+.writeMdlBanner {
+  color: white;
+  text-align: right;
+  padding: 43px 68px 45px 0;
+  transform: none;
+  text-align: right;
+  padding: 43px 68px 45px 0;
+  height: 100%;
+  border-radius: 110px 10px 10px 110px;
+  /*top: 50%;*/
+}
+
+.leftMdlBanner {
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+  padding-right: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.daysUp, .hoursUp, .minutesUp, .secondsUp {
+  font-family: BlenderBold;
+  font-size: 73px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.daysDown, .hoursDown, .minutesDown, .secondsDown {
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.sepMdlBanner {
+  font-family: BlenderBold;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin: 0 5px;
+  padding-bottom: 20px;
+}
+
+.bottomMdlBanner {
+  font-size: 18px;
+}
+
+.leftMdlBanner div {
+  padding: 0px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.leftMdlBannerSeconds, .leftMdlBannerMinutes, .leftMdlBannerHours, .leftMdlBannerDays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter, .secondsDown span, .minutesDown span, .hoursDown span, .daysDown span {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .mdlBanner {
+    WIDTH: 95%;
+    height: 122px;
+    /*background: url('/Style%20Library/Frame_small.svg');*/
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 992px) {
+  .daysDown, .hoursDown, .minutesDown, .secondsDown {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  .leftMdlBanner div {
+    padding-bottom: 4px;
+  }
+}
+
+@media (max-width: 992px) {
+  .daysUp, .hoursUp, .minutesUp, .secondsUp, .sepMdlBanner {
+    font-size: 23px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .sepMdlBanner {
+    width: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .leftMdlBannerIn {
+    top: 28%;
+    left: -23px;
+  }
+}
+
+@media (max-width: 992px) {
+  .leftMdlBanner {
+    padding: 0 !important;
+    right: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mdlBannerUpper {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .writeMdlBanner {
+    padding: 8px 9px 9px 0px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .mdlBannerBottom {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .bottomMdlBannerLink, .bottomMdlBannerLink:hover, .bottomMdlBannerLink:visited {
+    font-size: 10px;
+    display: block;
+  }
+}
